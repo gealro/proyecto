@@ -1,0 +1,73 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "co.jhonatan.emisora"
+        }
+    }
+}

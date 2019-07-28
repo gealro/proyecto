@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title> GR Stereo</title>
+    <link href="./css/bootstrap-material-design.min.css" rel="stylesheet" />
+    <link href="./css/css.css" type="text/css " rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous" />
+    <link href="./css/estilos.css" type="text/css" rel="stylesheet" />
+</head>
+
+
+<body background="https://www.bbva.com/wp-content/uploads/2018/03/Fondos-Indexados-Bindex-BBVA-Asset-Management-Fondo-de-Inversion-1024x768.jpg">
+    <div class="container">
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="img/1.png" alt="auto" width="50%" height="auto">
+            <h2 class="jazz">El sol - La X - Radio Activa - JAZZ</h2>
+            <p class="lead">ONLINE
+            </p>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="play">
+                    <i class="fas fa-play-circle"></i>
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="pause">
+                    <i class="fas fa-pause-circle"></i>
+                </button>
+            </div>
+        </div>
+        <div class="row text-center">
+            <!-----
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="volummenos">
+                    <i class="fa fa-volume-down"></i>
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="volumemas">
+                    <i class="fa fa-volume-up"></i>
+                </button>
+            </div> -->
+            <div class="col">
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="custom-range" id="myRange">
+                </div>
+            </div>
+        </div>
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="./img/2.gif" alt="auto" width="50%" height="auto" />
+        </div>
+        <div class="footer">
+            <p>Pascual Bravo
+                &copy; 2019
+            </p>
+        </div>
+        <!---Reproductor de-- audio--------->
+        <div class="row text-center">
+                <div class="col">
+                    <!---<select class="form-control form-control-lg" div="seleccion">
+                        <option value="0">Emisora 1 "El sol"</option>
+                        <option value="1">Emisora 2 "JAZZ"</option>
+                        <option value="2">Emisora 3 "Radio Activa"</option>
+                      </select>-->
+                </div>
+            </div>
+            
+        <audio id="emisora">
+            <!-- aqui URL de la radio que deseemos-->
+            <source src="" type="audio/mpeg" />
+            Tu navegador no es compatible
+        </audio>
+    </div>
+    <!---llamado de javscripts-->
+    <script type="text/javascript" src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/popper.js"></script>
+    <script type="text/javascript" src="./js/bootstrap-material-design.js"></script>
+    <script type="text/javascript" src="./js/fastclick.js"></script>
+    <script type="text/javascript" src="./js/gestures.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+
+    
+</body>
+
+</html>
